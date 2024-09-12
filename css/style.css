@@ -2,7 +2,7 @@
   
 }
 
-.main-container{
+.header_d-flex{
     display: flex;
     align-items: center;
     align-content: center;
@@ -11,17 +11,7 @@
     
 }
 
-
-.container_left{
-    display: flex;
-    align-items: flex-end;
-    align-content: center;
-    background-color: blueviolet;
-   width: 100%;
-    
-}
-
-.container_right{
+.right-container{
     display: flex;
     align-items: flex-start;
     align-content: center;
@@ -29,3 +19,49 @@
     width: 100%;
     
 }
+
+.right-menu{
+    display:flex;
+    align-items: flex-start;
+}
+
+.left-container
+.body{
+    width: 25px;;
+}
+
+.logo{
+    width: 25px;
+}
+
+.d-flex{
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
+
+
+.dropbox{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+
+.prodotti{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+
+.sectionoptions{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+
