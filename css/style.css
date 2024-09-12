@@ -1,0 +1,31 @@
+#app-header{
+  
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+   
+
+    
+}
+
+
+.container_left{
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    background-color: blueviolet;
+   width: 100%;
+    
+}
+
+.container_right{
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    background-color: cadetblue;
+    width: 100%;
+    
+}
