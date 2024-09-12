@@ -26,27 +26,27 @@
 
 
 .freetrialandimage{
-    width:500px;
+    width: 80%;
+    margin:auto;
+
+}
+
+.row{
     display: flex;
-    justify-content: center;
-    
-    
-    
-}
-
-.paragraph{
-
+    margin: 0 1rem;
+    flex-wrap:wrap;
 
 
 }
 
-.image{
 
-    img{
-        width: 500px;
-        height: 200px;
-        object-fit: cover; /* Ritaglia e ridimensiona l'immagine per adattarla al contenitore */
-      
+.col-4{
+
+width:calc(100%/12*4)
+}
+
+.col-8{
+    width:calc(100%/12*8)
 }
 
 
