@@ -4,16 +4,28 @@
 display:flex;
 }
 
+.jf_cnt{
+    justify-content: center;
+}
+
+
+.title{
+    text-align: center;
+    font-size:larger;
+
+
+}
+.ai-c{
+align-items: center;
+}
 .menu{
-
-
     flex-direction:row;
     
 }
 
 .right-menu{
     justify-content: flex-start;
-    width:50%
+    width:40%
     
   
 }
@@ -23,13 +35,54 @@ display:flex;
     width:50%
 
 }
+/*Sectionheader*/
+
+
+header{
+    min-height: 70px;
+}
+
+.r_menu, .l_menu{
+    width: 50%;
+}
+
+.l_menu{
+    justify-content: flex-end;
+}
+
+header a{
+    margin: 1rem;
+}
+
+header>div{
+    align-items: center;
+}
+
+
+.btn_start{
+    
+    padding: .3rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    
+    
+
+
+.grey_text{
+    color: gray;
+}
+
+
 
 /*sectiontrial*/
 
+.containertrial{
+    background-color: var(--drop-lightblue);
+    max-height: 600px;
+}
 .sectiontitle{
 
-    display: flex;
-    justify-content: center;
+
 
 }
 
@@ -60,8 +113,6 @@ width:calc(100%/12*4)
 
 
 
-
-
 /*footer*/
 .sectionoptions{
     
@@ -80,7 +131,29 @@ width:calc(100%/12*4)
 
 }
 
+
+
 .debug * {
     border:1px dashed;
 
 }
+
+:root{
+    --drop-primary: #ffffff;
+    --drop-secondary: #000000;
+    --drop-lightblue: #b4d0e7;
+    --drop-midblue: #2667ff;
+    --drop-blue: #0061ff;
+    --drop-bdx: #61082b;
+    --drop-designit: #a2d39b;
+    --drop-arizona: #61082b;
+    --drop-florida: #0093ce;
+    --drop-topps: #ff1c1c;
+    --drop-wbc: #d5001f;
+    --drop-hearest: #b4d0e7;
+    --drop-l_p: #0d2481;
+    --drop-cco: #ffd830;
+    --drop-des: #f5f5f5;
+}
+
+
