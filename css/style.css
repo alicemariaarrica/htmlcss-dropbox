@@ -1,18 +1,27 @@
+/*Utilities*/
+
+.d-flex{
+display:flex;
+}
+
 .menu{
 
-    display:flex;
+
     flex-direction:row;
     
 }
 
-.menu-right{
-    display: flex;
+.right-menu{
+    justify-content: flex-start;
+    width:50%
+    
   
 }
 
-.menu-left{
-    display: flex;
-   
+.left-menu{
+    justify-content: flex-end;
+    width:50%
+
 }
 
 /*sectiontrial*/
@@ -68,5 +77,10 @@ width:calc(100%/12*4)
 
     text-decoration: black;
     font-family: sans-serif;
+
+}
+
+.debug * {
+    border:1px dashed;
 
 }
